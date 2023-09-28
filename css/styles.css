@@ -3,6 +3,41 @@ body {
   background: #fff;
   color: #434455;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: currentColor;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 .header {
 }
 .header-navigation {
@@ -60,6 +95,18 @@ a {
 .address-link:hover,
 .address-link:focus {
   color: var(--OCEAN, #404bbf);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .hero {
@@ -144,7 +191,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.portfolio {  color: #2e2f42;
+.portfolio {
+  color: #2e2f42;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -183,7 +231,7 @@ a {
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  color: var(--IRIS, #4d5ae5);  
+  color: var(--IRIS, #4d5ae5);
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
