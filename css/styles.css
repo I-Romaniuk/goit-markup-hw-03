@@ -41,8 +41,7 @@ address {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -91,6 +90,7 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -218,7 +218,7 @@ a {
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  
 }
 
 .team-item {
